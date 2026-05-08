@@ -1,129 +1,310 @@
 <!DOCTYPE html>
 <html lang="uz">
+
 <head>
-<meta charset="UTF-8">
-<title>Ekomers Europe - Biznes Platforma</title>
-<link rel="stylesheet" href="main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ekomers Europe</title>
+
+  <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
 
-<div class="topbar">
-  ⚡ BUGUN MAXSUS CHEGIRMA - 24 SOATDA SAYT TAYYOR
-</div>
-
-<section class="hero">
-
-  <div class="hero-content">
-
-    <div class="badge">🔥 YANGI AVLOD E-KOMERS PLATFORMA</div>
-
-    <h1>Onlayn biznesingizni tez boshlang</h1>
-
-    <p>Biz siz uchun zamonaviy, tez va ko‘p sotiladigan internet do‘konlar yaratamiz</p>
-
-    <div class="hero-actions">
-      <button onclick="scrollDown()">🚀 Boshlash</button>
-      <button class="outline" onclick="contact()">📩 Bog‘lanish</button>
-    </div>
-
-    <div class="countdown">
-      ⏱ Taklif tugashiga: <span id="timer">10:00</span>
-    </div>
-
+  <div class="topbar">
+    ⚡ BUGUN MAXSUS CHEGIRMA - 24 SOATDA SAYT TAYYOR
   </div>
 
-</section>
+  <section class="hero">
 
-<section class="section">
-  <h2>Nega bizni tanlashadi?</h2>
+    <div class="hero-content">
 
-  <div class="grid">
+      <div class="badge">
+        🔥 YANGI AVLOD E-KOMERS PLATFORMA
+      </div>
 
-    <div class="card">⚡ 1 kunda tayyor</div>
-    <div class="card">💰 Arzon narx</div>
-    <div class="card">📈 Ko‘p sotiladigan dizayn</div>
-    <div class="card">📱 Mobilga mos</div>
+      <h1>Onlayn biznesingizni tez boshlang</h1>
 
-  </div>
-</section>
+      <!-- QO‘SHILDI -->
+      <div class="hero-users">
+        👥 5000+ foydalanuvchi bizga ishonadi
+      </div>
 
-<section class="section">
-  <h2>Kategoriyalar</h2>
+      <p>
+        Biz siz uchun zamonaviy, tez va ko‘p sotiladigan internet do‘konlar yaratamiz
+      </p>
 
-  <div class="grid">
+      <div class="hero-badges">
+        <span>✔ Ishonchli</span>
+        <span>✔ Premium Dizayn</span>
+        <span>✔ Mobilga Mos</span>
+      </div>
 
-    <div class="card">📱 Elektronika</div>
-    <div class="card">👕 Kiyim-kechak</div>
-    <div class="card">🏠 Uy buyumlari</div>
-    <div class="card">🎧 Aksessuarlar</div>
+      <div class="hero-actions">
+        <button onclick="scrollDown()">🚀 Boshlash</button>
 
-  </div>
-</section>
+        <button class="outline" onclick="contact()">
+          📩 Bog‘lanish
+        </button>
+      </div>
 
-<section class="section">
-  <h2>Eng mashhur mahsulotlar</h2>
+      <div class="countdown">
+        ⏱ Taklif tugashiga:
+        <span id="timer">10:00</span>
+      </div>
 
-  <div class="grid">
-
-    <div class="product">
-      <img src="/1.png">
-      <h3>Noutbuk Pro</h3>
-      <div class="rating">⭐⭐⭐⭐⭐</div>
-      <p>$800</p>
-      <button onclick="buy('Noutbuk Pro')">Sotib olish</button>
     </div>
 
-    <div class="product">
-      <img src="/2.png">
-      <h3>Smartfon</h3>
-      <div class="rating">⭐⭐⭐⭐⭐</div>
-      <p>$500</p>
-      <button onclick="buy('Smartfon')">Sotib olish</button>
+  </section>
+
+  <section class="section">
+
+    <h2>Nega bizni tanlashadi?</h2>
+
+    <div class="grid">
+
+      <div class="card">⚡ 1 kunda tayyor</div>
+      <div class="card">💰 Arzon narx</div>
+      <div class="card">📈 Ko‘p sotiladigan dizayn</div>
+      <div class="card">📱 Mobilga mos</div>
+
     </div>
 
-    <div class="product">
-      <img src="/3.png">
-      <h3>Naushnik</h3>
-      <div class="rating">⭐⭐⭐⭐⭐</div>
-      <p>$120</p>
-      <button onclick="buy('Naushnik')">Sotib olish</button>
+  </section>
+
+  <section class="section">
+
+    <h2>Kategoriyalar</h2>
+
+    <div class="grid">
+
+      <div class="card">📱 Elektronika</div>
+      <div class="card">👕 Kiyim-kechak</div>
+      <div class="card">🏠 Uy buyumlari</div>
+      <div class="card">🎧 Aksessuarlar</div>
+
     </div>
 
-  </div>
-</section>
+  </section>
 
-<section class="stats">
-  <div>🚀 100+ Mijoz</div>
-  <div>💰 250+ Loyiha</div>
-  <div>🌍 10+ Davlat</div>
-  <div>⚡ 24 soat xizmat</div>
-</section>
+  <!-- QO‘SHILDI -->
+  <section class="brands">
 
-<section class="cta">
-  <h2>Biznesingizni bugun boshlang</h2>
-  <p>24 soat ichida sizga internet do‘kon tayyorlab beramiz</p>
-  <button onclick="contact()">Boshlash</button>
-</section>
+    <h2>Hamkor Brendlar</h2>
 
-<section class="lead">
-  <h2>Bepul maslahat oling</h2>
+    <div class="grid">
 
-  <div class="form">
-    <input type="email" placeholder="Emailingizni kiriting">
-    <button onclick="lead()">Yuborish</button>
-  </div>
+      <div class="card">🍎 Apple</div>
+      <div class="card">📱 Samsung</div>
+      <div class="card">💻 Lenovo</div>
+      <div class="card">🎧 Xiaomi</div>
 
-</section>
+    </div>
 
-<footer>
-  <p>© 2026 Ekomers Europe</p>
-  <p>Biz bilan bog‘lanish: info@ekomers.com</p>
-</footer>
+  </section>
 
-<div id="popup" class="popup"></div>
+  <section class="section">
 
-<script src="script.js"></script>
+    <h2>Eng mashhur mahsulotlar</h2>
+
+    <div class="grid">
+
+      <div class="product">
+
+        <div class="sale">-20%</div>
+
+        <img src="1.png" alt="Noutbuk">
+
+        <h3>Noutbuk Pro</h3>
+
+        <div class="rating">
+          ⭐⭐⭐⭐⭐
+        </div>
+
+        <p>$800</p>
+
+        <button onclick="buy('Noutbuk Pro')">
+          Sotib olish
+        </button>
+
+      </div>
+
+      <div class="product">
+
+        <div class="sale">-15%</div>
+
+        <img src="2.png" alt="Smartfon">
+
+        <h3>Smartfon</h3>
+
+        <div class="rating">
+          ⭐⭐⭐⭐⭐
+        </div>
+
+        <p>$500</p>
+
+        <button onclick="buy('Smartfon')">
+          Sotib olish
+        </button>
+
+      </div>
+
+      <div class="product">
+
+        <div class="sale">-10%</div>
+
+        <img src="3.png" alt="Naushnik">
+
+        <h3>Naushnik</h3>
+
+        <div class="rating">
+          ⭐⭐⭐⭐⭐
+        </div>
+
+        <p>$120</p>
+
+        <button onclick="buy('Naushnik')">
+          Sotib olish
+        </button>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="reviews">
+
+    <h2>Mijozlar fikri</h2>
+
+    <div class="grid">
+
+      <div class="card">
+        ⭐⭐⭐⭐⭐
+        <p>"Judayam sifatli xizmat"</p>
+        <strong>- Azizbek</strong>
+      </div>
+
+      <div class="card">
+        ⭐⭐⭐⭐⭐
+        <p>"Savdolarim oshdi"</p>
+        <strong>- Kamron</strong>
+      </div>
+
+      <div class="card">
+        ⭐⭐⭐⭐⭐
+        <p>"Dizayn juda premium"</p>
+        <strong>- Sarvar</strong>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- QO‘SHILDI -->
+  <section class="faq">
+
+    <h2>Ko‘p so‘raladigan savollar</h2>
+
+    <div class="grid">
+
+      <div class="card">
+        <h3>Sayt necha kunda tayyor bo‘ladi?</h3>
+        <p>Odatda 24 soat ichida tayyor bo‘ladi.</p>
+      </div>
+
+      <div class="card">
+        <h3>Mobil versiyasi bo‘ladimi?</h3>
+        <p>Ha, barcha qurilmalarga moslashadi.</p>
+      </div>
+
+      <div class="card">
+        <h3>To‘lov qanday qilinadi?</h3>
+        <p>Karta orqali amalga oshiriladi.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="stats">
+
+    <div>🚀 100+ Mijoz</div>
+    <div>💰 250+ Loyiha</div>
+    <div>🌍 10+ Davlat</div>
+    <div>⚡ 24/7 Xizmat</div>
+
+  </section>
+
+  <section class="cta">
+
+    <h2>Biznesingizni bugun boshlang</h2>
+
+    <p>
+      24 soat ichida sizga internet do‘kon tayyorlaymiz
+    </p>
+
+    <button onclick="contact()">
+      Boshlash
+    </button>
+
+  </section>
+
+  <section class="lead">
+
+    <h2>Bepul maslahat oling</h2>
+
+    <div class="form">
+
+      <input type="email" placeholder="Emailingizni kiriting">
+
+      <button onclick="lead()">
+        Yuborish
+      </button>
+
+    </div>
+
+  </section>
+
+  <!-- QO‘SHILDI -->
+  <section class="newsletter">
+
+    <h2>Yangiliklarga obuna bo‘ling</h2>
+
+    <div class="form">
+
+      <input type="email" placeholder="Email kiriting">
+
+      <button>
+        Obuna bo‘lish
+      </button>
+
+    </div>
+
+  </section>
+
+  <footer>
+
+    <p>© 2026 Ekomers Europe</p>
+
+    <p>
+      Biz bilan bog‘lanish:
+      info@ekomers.com
+    </p>
+
+  </footer>
+
+  <a href="#" class="telegram-btn">
+    💬 Telegram
+  </a>
+
+  <!-- QO‘SHILDI -->
+  <button id="topBtn" onclick="topFunction()">
+    ↑
+  </button>
+
+  <script src="script.js"></script>
 
 </body>
+
 </html>
